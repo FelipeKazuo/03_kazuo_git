@@ -19,6 +19,8 @@
 		<br/>
 		<br/>
 		
+		<a href="webcool.jsp">Venha conhecer a melhor página!</a>
+		
 		<form action="IndexServlet" method="post">
 		<label for="p">Me diga numa escala de 0 a 10, quão puto você está:</label>
 		<input id="p" name="p" type="number" step="1" min="0" max="10" maxlength="2">

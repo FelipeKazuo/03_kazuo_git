@@ -1,0 +1,14 @@
+body {
+    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/p1639ay-goodss-160930.jpg");
+    background-repeat: no-repeat;
+}
+
+h1 {
+	text-allign: center;
+	color: gray;
+}
+
+h2 {
+	text-allign: center;
+	color: #8b53ac;
+}

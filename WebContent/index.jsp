@@ -6,7 +6,7 @@
 				background-color: black;
 			}
 			
-			h1{
+			h1, form{
 				color: silver;
 			}
 		</style>
@@ -16,5 +16,16 @@
 	
 	<body>
 		<h1>Bem vindo a página cool </h1>
+		<br/>
+		<br/>
+		
+		<form action="IndexServlet" method="post">
+		<label for="p">Me diga numa escala de 0 a 10, quão puto você está:</label>
+		<input id="p" name="p" type="number" step="1" min="0" max="10" maxlength="2">
+		<br/>
+		
+		<input type="button" onclick="submit()" value="Enviar">
+		
+		</form>
 	</body>
 </html>
